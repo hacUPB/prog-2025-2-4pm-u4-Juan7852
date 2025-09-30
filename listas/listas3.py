@@ -12,7 +12,8 @@ for t, a, v, est in zip(tiempo, altitud, velocidad, estado):
 #CALCULAR promedoio VELOCIDAD 
 suma = 0
 for v in velocidad:
-    suma=suma+= v
+    suma = suma += v
+
 
 promedio = suma / len(velocidad)
 print(f "velocidad promedio = {promedio}")
